@@ -1,0 +1,73 @@
+﻿Build started 10/05/2017 14:30:56.
+     1>Project "C:\Users\Matthijs\Documents\Visual Studio 2012\Projects\igor2mat\igor2mat\ibw2mat\ibw2mat.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\igor2mat.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt CrossPlatformFileIO.cpp getFiles.cpp ibw2mat.cpp igor2mat.cpp matfiles.cpp pxp2mat.cpp ReadPackedFile.cpp ReadWave.cpp stdafx.cpp
+         CrossPlatformFileIO.cpp
+     1>CrossPlatformFileIO.cpp(122): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         getFiles.cpp
+     1>getFiles.cpp(38): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         ibw2mat.cpp
+     1>ibw2mat.cpp(16): warning C4013: 'getFileList' undefined; assuming extern returning int
+     1>ibw2mat.cpp(18): warning C4013: 'getDefaultMatFile' undefined; assuming extern returning int
+     1>ibw2mat.cpp(18): warning C4047: '=' : 'MATFILE *' differs in levels of indirection from 'int'
+         igor2mat.cpp
+         matfiles.cpp
+     1>matfiles.cpp(76): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>matfiles.cpp(81): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>matfiles.cpp(393): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>matfiles.cpp(397): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>matfiles.cpp(481): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>matfiles.cpp(485): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>matfiles.cpp(831): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+         pxp2mat.cpp
+     1>pxp2mat.cpp(17): warning C4013: 'getFileList' undefined; assuming extern returning int
+     1>pxp2mat.cpp(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>pxp2mat.cpp(33): warning C4013: 'getMatFile' undefined; assuming extern returning int
+     1>pxp2mat.cpp(33): warning C4047: '=' : 'MATFILE *' differs in levels of indirection from 'int'
+     1>pxp2mat.cpp(13): warning C4101: 'mf' : unreferenced local variable
+         ReadPackedFile.cpp
+     1>ReadPackedFile.cpp(18): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>ReadPackedFile.cpp(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ReadPackedFile.cpp(124): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>ReadPackedFile.cpp(251): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ReadPackedFile.cpp(278): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ReadPackedFile.cpp(388): warning C4013: 'doMatlabWrite' undefined; assuming extern returning int
+     1>ReadPackedFile.cpp(635): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+         ReadWave.cpp
+     1>ReadWave.cpp(455): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ReadWave.cpp(466): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         stdafx.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matthijs\Documents\Visual Studio 2012\Projects\igor2mat\igor2mat\Release\igor2mat.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Matthijs\Documents\Visual Studio 2012\Projects\igor2mat\igor2mat\Release\igor2mat.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Matthijs\Documents\Visual Studio 2012\Projects\igor2mat\igor2mat\Release\igor2mat.lib" /MACHINE:X86 /SAFESEH Release\CrossPlatformFileIO.obj
+         Release\getFiles.obj
+         Release\ibw2mat.obj
+         Release\igor2mat.obj
+         Release\matfiles.obj
+         Release\pxp2mat.obj
+         Release\ReadPackedFile.obj
+         Release\ReadWave.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         ibw2mat.vcxproj -> C:\Users\Matthijs\Documents\Visual Studio 2012\Projects\igor2mat\igor2mat\Release\igor2mat.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\igor2mat.unsuccessfulbuild".
+         Touching "Release\igor2mat.lastbuildstate".
+     1>Done Building Project "C:\Users\Matthijs\Documents\Visual Studio 2012\Projects\igor2mat\igor2mat\ibw2mat\ibw2mat.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.11
